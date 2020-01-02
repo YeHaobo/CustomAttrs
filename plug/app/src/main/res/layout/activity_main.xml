@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.plug.yhb.ImageShow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="自定义控件"
+        app:text_size="6sp"
+        app:text_color="#2E2E2E"
+        app:text_gravity="center"
+        app:image_height="150dp"
+        app:image_width="250dp"
+        app:res="@mipmap/ic_launcher_round"
+        app:src="https://www.baidu.com/img/labadong_9f901c0eb1a677ad32efe1d024e12bac.gif" />
+</LinearLayout>
